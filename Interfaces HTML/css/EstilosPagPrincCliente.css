@@ -1,0 +1,38 @@
+.titulo{
+	position: absolute;
+	left: 45%;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	top: 2%;
+}
+.contenedor-menu{
+	float: left;
+	width: 20%;
+	margin-top: 6%;
+	padding-top: 5%;
+	/* padding:auto; */
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	line-height: 18px;
+	height: 100%;
+	position: fixed;
+	background-color: #4267B2;
+}
+
+.contenedor-menu .menu a{
+	text-decoration: none;
+	/* color: #fff; */
+}
+
+.contenedor-menu .menu{
+	width: 100%;
+}
+
+.contenido.wrapper{
+	width: 80%;
+	height: 100;
+	float: right;
+	padding-left:3%;
+	padding-top: 10%;
+}
