@@ -1,0 +1,73 @@
+.contenedorProveedor{
+	width: 100%;
+	height: 100;
+	padding:10%;
+}
+
+.contenedorProveedor fieldset{
+	background-color: #4267B2;
+	width: 100%;
+	height: 100%;
+}
+.contenedorProveedor fieldset legend{
+	color: #4267B2;
+	font-family: bold;
+}
+.arriba{
+	width: 100%;
+	height: 40%;
+}
+
+
+.arriba .botonPelicula{
+	height: 50%;
+	margin-left: 10%;
+	margin-top: 2%;
+	font-size: 20px;
+	color: #fff;
+}
+
+.abajo{
+	width: 100%;
+	height: 70%;
+	margin-top: 3%;
+}
+.abajo fieldset legend{
+	color: #fff;
+	font-family: bold;
+	text-align: center;
+}
+
+.abajo fieldset .izq video{
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+
+.abajo fieldset .izq{
+	float: left;
+	width: 70%;
+	margin-bottom: 5%;
+}
+
+.abajo fieldset .der{
+	float: right;
+	width: 30%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.abajo fieldset .der label{
+	margin-top: 10%;
+	color: #fff;
+	font-size: 15px;
+	padding-right: 5%;
+}
+.abajo fieldset .der input{
+	width: 50%;
+}
+
+.abajo fieldset .der .btnSiguiente{
+	margin-top: 20%;
+	margin-left: 20%;
+}
