@@ -1,0 +1,228 @@
+.contenedorProveedor{
+	width: 100%;
+	height: 100;
+	padding:10%;
+}
+
+.contenedorProveedor fieldset{
+	background-color: #4267B2;
+	width: 100%;
+	height: 100%;
+}
+.contenedorProveedor fieldset legend{
+	color: #4267B2;
+	font-family: bold;
+}
+
+.arriba .arribaIzq{
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+}
+.arriba .arribaIzq label{
+	margin-left: 2%;
+	margin-right: 4%;
+	margin-top: 5%;
+	color: #fff;
+	font-family: verdana;
+}
+
+.arriba .arribaIzq input{
+	width: 40%;
+}
+
+
+.arriba .arribaDer .titulo{
+	float: right;
+	width: 60%;
+	margin-right: 7%;
+}
+
+.arriba .arribaDer .titulo label{
+	margin-right: 4%;
+	color: #fff;
+	font-family: verdana;
+	font-size: 16px;
+}
+
+.arriba .arribaDer .titulo input{
+	width: 70%;
+}
+
+.arriba .arribaDer .otros{
+	float: right;
+	width: 60%;
+	margin-top: 4%;
+	margin-right: 7%;
+	margin-bottom: 15%;
+}
+
+.arriba .arribaDer .otros label{
+	margin-right: 1%;
+	color: #fff;
+	font-family: verdana;
+	font-size: 14px;
+}
+
+.arriba .arribaDer .otros input{
+	margin-right: 1%;
+	width: 10%;
+}
+
+.arriba .arribaDer .otros .isan{
+	width: 15%;
+}
+
+.descripcion{
+	position: absolute;
+	left: 15%;
+	top: 55%;
+	width: 100%;
+}
+
+.descripcion label{
+	color:#fff;
+	margin-right: 2%;
+	font-family: verdana;
+	font-size: 16px;
+	text-align: center;
+}
+
+.descripcion textarea{
+	width: 60%;
+	height: 10%;
+	border-radius: 2px;
+}
+
+.abajo .izq{
+	width: 50%;
+	float: left;
+}
+
+.abajo .izq .izq2{
+	width: 40%;
+	float: letter-spacing: ;
+}
+
+.abajo .izq .izq1 fieldset{
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+
+.abajo .izq .izq1 fieldset legend{
+	color: #fff;
+}
+
+.abajo .izq .izq1 .btnReparto{
+	margin: 5%;
+	margin-top: 60%;
+}
+
+.abajo .izq .izq2{
+	width: 60%;
+	float: right;
+}
+
+.abajo .izq .izq2 fieldset{
+	width: 70%;
+	margin-left: 10%;
+}
+
+.abajo .izq .izq2 fieldset legend{
+	color: #fff;
+}
+
+.abajo .izq .izq2 fieldset input{
+	width: 30%;
+}
+.abajo .izq .izq2 fieldset label{
+	width: 70%;
+}
+
+.abajo .der{
+	width: 50%;
+	float: right;
+}
+
+.abajo .der .der1{
+	width: 50%;
+	float: left;
+}
+
+.abajo .der .der1 fieldset{
+	width: 70%;
+}
+
+.abajo .der .der1 fieldset legend{
+	color: #fff;
+}
+
+.abajo .der .der1 fieldset input{
+	width: 30%;
+}
+.abajo .der .der1 fieldset label{
+	width: 70%;
+}
+
+.abajo .der .der2{
+	width: 50%;
+	float: right;
+}
+
+.abajo .der .der2 fieldset{
+	width: 70%;
+}
+
+.abajo .der .der2 fieldset legend{
+	color: #fff;
+}
+
+.abajo .der .der2 fieldset input{
+	width: 30%;
+}
+.abajo .der .der2 fieldset label{
+	width: 70%;
+}
+
+.agregarPelicula{
+	float: right;
+	margin-right: 5%; 
+}
+
+.agregarPelicula .btnAgregarPelicula{
+	margin-bottom: 30%;
+}
+
+.contenedorPagina{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.contenedorReparto{
+	position: absolute;
+	width: 60%;
+	height: 90%;
+	top: 30%;
+	left: 20%;
+	background-color: #4267B2;
+	border: solid;
+	border-color: #fff;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+}
+.contenedorReparto .form-horizontal fieldset legend{
+	color: #fff;
+}
+.labelsReparto{
+	color: #fff;
+}
+.btnAgregarReparto{
+	margin-top: 3%;
+	margin-left: 40%;
+}
