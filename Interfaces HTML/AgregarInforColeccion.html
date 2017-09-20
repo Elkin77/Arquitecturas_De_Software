@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Agregar Informacion Coleccion</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/EstilosGeneral.css">
+        <link rel="stylesheet" type="text/css" href="css/EstilosIndex.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/EstilosAgregarInforColeccion.css">
+        <script src="http://code.jquery.com/jquery-latest.js"></script><!-- Codigo fuente Jquery -->
+        <!-- <script src="{% static 'js/jQuery.js' %}"></script> -->
+        <script src="js/ScriptsAgregarInforVideo.js"></script>
+
+    </head>
+    <body class="cuerpo">
+        <header>
+            <div class="wrapper">
+                <div class="logo">VideoMONITO</div>
+                <nav class="navBar">
+                    <a href="#" ><i class="fa fa-user" aria-hidden="true"></i></a>
+                    <a href="#" ><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="contenedorProveedor">
+            <form action="" method="POST">
+                <fieldset>
+                    <legend>Informacion</legend>
+                    <div class="arriba">
+                        <div class="arribaIzq">
+                            <video width="240" height="120" controls>
+                                    <source src="movie.mp4" type="video/mp4">
+                                    <source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.
+                            </video>
+                            <label for="duracion">Duracion</label><input type="text" disabled>
+                        </div>
+                        <div class="arribaDer">
+                            <div class="titulo">
+                                <label for="titulo">Titulo Original</label><input type="text">
+                            </div>
+                            <div class="otros">
+                                <label for="isan">ISAN</label><input type="text" class="isan">
+                                <label for="year">A&ntilde;o Produccion</label> <input type="text">
+                                <label for="clasificacion">Clasificacion (A&ntilde;os)</label> <input type="number" min="0" max="18"><br><br>
+                                <label for="numVideos">Num Videos</label><input type="number" min="2" max="30" class="isan" disabled>
+                                <label for="volumen">Volumen</label> <input type="number" min="1" max="30" disabled>
+                            </div>
+                        </div>
+                        <div class="descripcion">
+                                <label for="descripcion">Descripcion</label><textarea></textarea>
+                        </div>
+                    </div>
+                    <div class="abajo">
+                        <fieldset>
+                            <legend>Vista Previa</legend>
+                            <div class="izq">
+                                <div class="izq1">
+                                    <fieldset>
+                                        <legend>Reparto</legend>
+                                        <a href="#" class="btn btn-default btnReparto">Agregar Persona</a>
+                                    </fieldset>
+                                </div>
+                                <div class="izq2">
+                                    <fieldset>
+                                        <legend>Categoria</legend>
+                                        <input type="checkbox" id="categoria" name="Categoria" value="accion" checked><label for="">Accion</label>
+                                        <input type="checkbox" id="categoria" name="categoria" value="terror"><label for="">Terror</label>
+                                        <input type="checkbox" id="categoria" name="categoria" value="suspenso"><label for="">Suspenso</label>
+                                        <input type="checkbox" id="categoria" name="categoria" value="comedia"><label for="">Comedia</label>
+                                        <input type="checkbox" id="categoria" name="categoria" value="infantil"><label for="">Infantil</label>
+                                        <input type="checkbox" id="categoria" name="categoria" value="anime"><label for="">Anime</label>
+                                        <input type="checkbox" id="categoria" name="categoria" value="drama"><label for="">Drama</label>
+                                        <input type="checkbox" id="categoria" name="categoria" value="ficcion"><label for="">Ficcion</label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="der">
+                                <div class="der1">
+                                    <fieldset>
+                                        <legend>Idiomas</legend>
+                                        <input type="checkbox" id="idiomas" name="idiomas" value="accion" checked><label for="">Espa&ntilde;ol Latino</label>
+                                        <input type="checkbox" id="idiomas" name="idiomas" value="terror"><label for="">Espa&ntilde;ol</label>
+                                        <input type="checkbox" id="idiomas" name="idiomas" value="suspenso"><label for="">Ingles USA</label>
+                                        <input type="checkbox" id="idiomas" name="idiomas" value="comedia"><label for="">Ingles Britanico</label>
+                                        <input type="checkbox" id="idiomas" name="idiomas" value="infantil"><label for="">Frances</label>
+                                        <input type="checkbox" id="idiomas" name="idiomas" value="anime"><label for="">Aleman</label>
+                                        <input type="checkbox" id="idiomas" name="idiomas" value="drama"><label for="">Italiano</label>
+                                    </fieldset>
+                                </div>
+                                 <div class="der2">
+                                    <fieldset>
+                                        <legend>Subtitulos</legend>
+                                        <input type="checkbox" id="subtitulos" name="subtitulos" value="accion" checked><label for="">Espa&ntilde;ol</label>
+                                        <input type="checkbox" id="subtitulos" name="subtitulos" value="terror"><label for="">Ingles USA</label>
+                                        <input type="checkbox" id="subtitulos" name="subtitulos" value="suspenso"><label for="">Ingles Britanico</label>
+                                        <input type="checkbox" id="subtitulos" name="subtitulos" value="comedia"><label for="">Frances</label>
+                                        <input type="checkbox" id="subtitulos" name="subtitulos" value="infantil"><label for="">Aleman</label>
+                                        <input type="checkbox" id="subtitulos" name="subtitulos" value="anime"><label for="">Italiano</label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="agregarPelicula">
+                                <input type="submit" class="btn btn-default btnAgregarPelicula" value="Agregar Coleccion">
+                            </div>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="contenedorPagina"></div>
+        <div class="contenedorReparto">
+            <form class="form-horizontal" action="" method="POST">
+                <fieldset>
+                    <legend>Agregar Reparto </legend>
+                    <div class="form-group">
+                        <label for="nombre" class="col-lg-2 control-label labelsReparto">Nombre</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="nombre" placeholder="Nombre" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="papelPelicula" class="col-lg-2 control-label labelsReparto">Papel Pelicula</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="papelPelicula" placeholder="Papel Pelicula" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="edad" class="col-lg-2 control-label labelsReparto">Edad</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="edad" placeholder="Edad" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="nacionalidad" class="col-lg-2 control-label labelsReparto">Nacionalidad</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="nacionalidad" placeholder="nacionalidad" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="descripcion" class="col-lg-2 control-label labelsReparto">Descripcion</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="3" id="descripcion"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="premios" class="col-lg-2 control-label labelsReparto    ">Premios</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="3" id="premios"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-default btnAgregarReparto" value="Agregar Reparto">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
